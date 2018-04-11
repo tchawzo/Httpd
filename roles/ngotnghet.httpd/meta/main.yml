@@ -1,0 +1,17 @@
+---
+galaxy_info:
+  author: ANHLN
+  description: httpd.
+  company: FPT Software
+  license: httpd
+  min_ansible_version: 1.9
+  platforms:
+  - name: EL
+    versions:
+    - all
+  galaxy_tags:
+    - acme
+    - installer
+    - web
+  dependencies:
+    - role : ngotnghet.httpd 
